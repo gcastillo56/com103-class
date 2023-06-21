@@ -11,18 +11,20 @@
 #include <string>
 using namespace std;
 
-template <typename Item>
-inline void mySwap(Item & first, Item & second) {
-    Item temp = first;
+template <typename I>
+inline void mySwap(I &first, I &second)
+{
+    I temp = first;
     first = second;
     second = temp;
 }
 
-int main() {
+int main()
+{
     int i1 = 11, i2 = 22;
     double d1 = 33.3, d2 = 44.4;
     string s1 = "Hi", s2 = "Ho";
-    
+
     cout << "Before swap: ints - " << i1 << ", " << i2 << endl;
     mySwap(i1, i2);
     cout << "After swap: ints - " << i1 << ", " << i2 << endl;
