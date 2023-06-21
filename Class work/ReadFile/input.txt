@@ -1,0 +1,4 @@
+1, alumno1, 9
+2, alumno2, 8 
+3, alumno3, 9 
+4, alumno4, 7
